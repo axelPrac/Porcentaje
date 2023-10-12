@@ -4,7 +4,7 @@ function calcularPorcentaje() {
   // Verificar si se ingresó un número válido
   if (!isNaN(precio)) {
     // Calcular el 30% del precio
-    var porcentaje = precio * 0.17;
+    var porcentaje = precio * 0.18;
     let precioTT = precio + porcentaje;
     document.getElementById("resultado").innerHTML = precioTT;
   } else {
